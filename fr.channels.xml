@@ -24,7 +24,7 @@
   <channel site="programme-tv.net" site_id="eurosport-1-5" lang="fr" xmltv_id="Eurosport1.fr@France">EUROSPORT 1 HD</channel>
   <channel site="programme-tv.net" site_id="eurosport-2-63" lang="fr" xmltv_id="Eurosport2.fr@France">EUROSPORT 2 HD</channel>
   <channel site="tv.sfr.fr" site_id="2752" lang="fr" xmltv_id="ComedyCentral.fr@HD">Comedy Central</channel>
-  <channel site="tv.sfr.fr" site_id="2184" lang="fr" xmltv_id="DiscoveryChannel.fr@SD">Discovery Investigation</channel>
+  <channel site="tv.sfr.fr" site_id="400" lang="fr" xmltv_id="DiscoveryChannel.fr@SD">Discovery Channel</channel>
   <channel site="tv.sfr.fr" site_id="2" lang="fr" xmltv_id="13emeRue.fr@SD">13ème rue</channel>
   <channel site="tv.sfr.fr" site_id="1746" lang="fr" xmltv_id="Nicktoons.fr@SD">NickToons</channel>
   <channel site="tv.sfr.fr" site_id="321" lang="fr" xmltv_id="Boomerang.fr@HD">Boomerang</channel>
