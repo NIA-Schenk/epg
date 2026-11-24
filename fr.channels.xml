@@ -21,6 +21,8 @@
   <channel site="tv.sfr.fr" site_id="225" lang="fr" xmltv_id="TVBreizh.fr@SD">TV Breizh</channel>
   <channel site="tv.sfr.fr" site_id="34" lang="fr" xmltv_id="CanalPlus.fr@SD">Canal+</channel>
   <channel site="programme-tv.net" site_id="canalplus-sport-37" lang="fr" xmltv_id="CanalPlusSport.fr@SD">Canal+ Sport</channel>
+  <channel site="tv.sfr.fr" site_id="76" lang="fr" xmltv_id="Eurosport1.fr@France">EUROSPORT 1 HD</channel>
+  <channel site="tv.sfr.fr" site_id="439" lang="fr" xmltv_id="Eurosport2.fr@France">EUROSPORT 2 HD</channel>
   <channel site="tv.sfr.fr" site_id="2752" lang="fr" xmltv_id="ComedyCentral.fr@HD">Comedy Central</channel>
   <channel site="tv.sfr.fr" site_id="2184" lang="fr" xmltv_id="DiscoveryChannel.fr@SD">Discovery Investigation</channel>
   <channel site="tv.sfr.fr" site_id="2" lang="fr" xmltv_id="13emeRue.fr@SD">13ème rue</channel>
