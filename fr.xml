@@ -20,6 +20,8 @@
 <channel id="TVBreizh.fr@SD"><display-name>TV Breizh</display-name><icon src="https://i.imgur.com/O8W4yhn.png"/></channel>
 <channel id="CanalPlus.fr@SD"><display-name>Canal+</display-name><icon src="https://i.imgur.com/5HcyMnW.png"/></channel>
 <channel id="CanalPlusSport.fr@SD"><display-name>Canal+ Sport</display-name><icon src="https://i.imgur.com/EOXnU15.png"/></channel>
+<channel id="Eurosport1.fr@France"><display-name>EUROSPORT 1 HD</display-name><icon src="https://i.imgur.com/olQJgm7.png"/></channel>
+<channel id="Eurosport2.fr@France"><display-name>EUROSPORT 2 HD</display-name><icon src="https://i.imgur.com/f56dHgR.png"/></channel>
 <channel id="ComedyCentral.fr@HD"><display-name>Comedy Central</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png"/></channel>
 <channel id="DiscoveryChannel.fr@SD"><display-name>Discovery Investigation</display-name><icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/></channel>
 <channel id="13emeRue.fr@SD"><display-name>13ème rue</display-name><icon src="https://i.imgur.com/k0DCMTL.png"/></channel>
