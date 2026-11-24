@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="programme-tv.net" site_id="tf1-19" lang="fr" xmltv_id="TF1.fr@SD">TF1</channel>
+  <channel site="programme-tv.net" site_id="france-2-6" lang="fr" xmltv_id="France2.fr@SD">France 2</channel>
+  <channel site="programme-tv.net" site_id="france-3-7" lang="fr" xmltv_id="France3.fr@National">France 3</channel>
+  <channel site="programme-tv.net" site_id="france-4-8" lang="fr" xmltv_id="France4.fr@SD">France 4</channel>
+  <channel site="programme-tv.net" site_id="france-5-9" lang="fr" xmltv_id="France5.fr@SD">France 5</channel>
+  <channel site="programme-tv.net" site_id="m6-12" lang="fr" xmltv_id="M6.fr@HD">M6</channel>
+  <channel site="programme-tv.net" site_id="arte-337" lang="fr" xmltv_id="arte.fr@SD">Arte</channel>
+  <channel site="programme-tv.net" site_id="w9-24" lang="fr" xmltv_id="W9.fr@SD">W9</channel>
+  <channel site="programme-tv.net" site_id="tmc-21" lang="fr" xmltv_id="TMC.fr@HD">TMC</channel>
+  <channel site="programme-tv.net" site_id="tfx-14" lang="fr" xmltv_id="TFX.fr@SD">TFX</channel>
+  <channel site="programme-tv.net" site_id="gulli-29" lang="fr" xmltv_id="Gulli.fr@SD">Gulli</channel>
+  <channel site="programme-tv.net" site_id="bfmtv-25" lang="fr" xmltv_id="BFMTV.fr@SD">BFMTV</channel>
+  <channel site="programme-tv.net" site_id="cnews-30" lang="fr" xmltv_id="CNews.fr@SD">CNEWS</channel>
+  <channel site="programme-tv.net" site_id="cstar-28" lang="fr" xmltv_id="CStar.fr@SD">CSTAR</channel>
+  <channel site="programme-tv.net" site_id="t18-11532" lang="fr" xmltv_id="T18.fr@HD">T18</channel>
+  <channel site="programme-tv.net" site_id="novo19-11533" lang="fr" xmltv_id="NOVO19.fr@HD">NOVO19</channel>
+  <channel site="programme-tv.net" site_id="tf1-series-films-201" lang="fr" xmltv_id="TF1SeriesFilms.fr@SD">TF1 Séries Films</channel>
+  <channel site="programme-tv.net" site_id="6ter-202" lang="fr" xmltv_id="6ter.fr@SD">6ter</channel>
+  <channel site="programme-tv.net" site_id="tvbreizh-129" lang="fr" xmltv_id="TVBreizh.fr@SD">TvBreizh</channel>
+  <channel site="programme-tv.net" site_id="canalplus-2" lang="fr" xmltv_id="CanalPlus.fr@SD">Canal+</channel>
+  <channel site="programme-tv.net" site_id="canalplus-sport-37" lang="fr" xmltv_id="CanalPlusSport.fr@SD">Canal+ Sport</channel>
+  <channel site="programme-tv.net" site_id="comedy-central-472" lang="fr" xmltv_id="ComedyCentral.fr@HD">Comedy Central</channel>
+  <channel site="programme-tv.net" site_id="discovery-channel-54" lang="fr" xmltv_id="DiscoveryChannel.fr@SD">Discovery Channel</channel>
+  <channel site="programme-tv.net" site_id="13eme-rue-26" lang="fr" xmltv_id="13emeRue.fr@SD">13eme RUE</channel>
+  <channel site="programme-tv.net" site_id="boomerang-34" lang="fr" xmltv_id="Boomerang.fr@HD">Boomerang</channel>
+  <channel site="programme-tv.net" site_id="nickelodeon-99" lang="fr" xmltv_id="Nickelodeon.fr@SD">Nickelodéon</channel>
+  <channel site="programme-tv.net" site_id="euronews-62" lang="fr" xmltv_id="EuronewsFrench.fr@SD">Euronews</channel>
+  <channel site="programme-tv.net" site_id="bfm-lyon-metropole-364" lang="fr" xmltv_id="BFMLyon.fr@SD">BFM Lyon Métropole</channel>
+</channels>
