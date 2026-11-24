@@ -44,6 +44,38 @@ jobs:
           cp ../publish/fr.channels.xml ./fr.channels.xml
           npm run grab --- --channels=fr.channels.xml
 
+      - name: Use playlist logos in XMLTV
+        run: |
+          python3 - <<'PY'
+          import re
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          playlist = Path("publish/fr-selected.m3u").read_text(encoding="utf-8-sig")
+          logos = {}
+
+          for line in playlist.splitlines():
+              if not line.startswith("#EXTINF:"):
+                  continue
+
+              channel_id = re.search(r'tvg-id="([^"]+)"', line)
+              logo = re.search(r'tvg-logo="([^"]+)"', line)
+              if channel_id and logo:
+                  logos[channel_id.group(1)] = logo.group(1)
+
+          guide_path = Path("epg/guide.xml")
+          tree = ET.parse(guide_path)
+
+          for channel in tree.getroot().findall("channel"):
+              logo_url = logos.get(channel.get("id"))
+              if logo_url:
+                  for icon in channel.findall("icon"):
+                      channel.remove(icon)
+                  ET.SubElement(channel, "icon", {"src": logo_url})
+
+          tree.write(guide_path, encoding="utf-8", xml_declaration=True)
+          PY
+
       - name: Validate XMLTV guide
         run: python3 -c 'import sys, xml.etree.ElementTree as ET; root = ET.parse("epg/guide.xml").getroot(); sys.exit(0 if root.tag == "tv" and root.find("programme") is not None else "XMLTV guide contains no programmes")'
 
