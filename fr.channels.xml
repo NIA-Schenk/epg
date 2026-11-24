@@ -39,6 +39,7 @@
   <channel site="tv.sfr.fr" site_id="88" lang="fr" xmltv_id="HistoireTV.fr@SD">Histoire TV</channel>
   <channel site="tv.sfr.fr" site_id="6" lang="fr" xmltv_id="Mangas.fr@SD">Mangas</channel>
   <channel site="tv.sfr.fr" site_id="140" lang="fr" xmltv_id="EuronewsFrench.fr@SD">Euronews Fra</channel>
+  <channel site="tvgids.nl" site_id="euronews" lang="nl" xmltv_id="EuronewsEnglish.fr@SD">Euronews English</channel>
   <channel site="tv.sfr.fr" site_id="2184" lang="fr" xmltv_id="InvestigationDiscovery.fr@SD">Discovery Investigation</channel>
   <channel site="tv.sfr.fr" site_id="116" lang="fr" xmltv_id="BFMLyon.fr@SD">BFM Lyon</channel>
 </channels>
