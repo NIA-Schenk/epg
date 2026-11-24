@@ -32,18 +32,20 @@ jobs:
         working-directory: epg
         run: npm install
 
-      - name: Generate XMLTV guide
-        working-directory: epg
-        run: npm run grab --- --sites=programme-tv.net
-
-      - name: Validate XMLTV guide
-        run: python3 -c 'import sys, xml.etree.ElementTree as ET; root = ET.parse("epg/guide.xml").getroot(); sys.exit(0 if root.tag == "tv" and root.find("programme") is not None else "XMLTV guide contains no programmes")'
-
       - name: Check out publishing repository
         uses: actions/checkout@v6
         with:
           ref: ${{ github.event.repository.default_branch }}
           path: publish
+
+      - name: Generate XMLTV guide
+        working-directory: epg
+        run: |
+          cp ../publish/fr.channels.xml ./fr.channels.xml
+          npm run grab --- --channels=fr.channels.xml
+
+      - name: Validate XMLTV guide
+        run: python3 -c 'import sys, xml.etree.ElementTree as ET; root = ET.parse("epg/guide.xml").getroot(); sys.exit(0 if root.tag == "tv" and root.find("programme") is not None else "XMLTV guide contains no programmes")'
 
       - name: Publish guide
         working-directory: publish
