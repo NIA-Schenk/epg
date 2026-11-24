@@ -19,12 +19,14 @@
   <channel site="tv.sfr.fr" site_id="1404" lang="fr" xmltv_id="TF1SeriesFilms.fr@SD">TF1 Séries-Films</channel>
   <channel site="tv.sfr.fr" site_id="1403" lang="fr" xmltv_id="6ter.fr@SD">6ter</channel>
   <channel site="tv.sfr.fr" site_id="225" lang="fr" xmltv_id="TVBreizh.fr@SD">TV Breizh</channel>
+  <channel site="tv.sfr.fr" site_id="34" lang="fr" xmltv_id="CanalPlus.fr@SD">Canal+</channel>
+  <channel site="programme-tv.net" site_id="canalplus-sport-37" lang="fr" xmltv_id="CanalPlusSport.fr@SD">Canal+ Sport</channel>
   <channel site="tv.sfr.fr" site_id="2752" lang="fr" xmltv_id="ComedyCentral.fr@HD">Comedy Central</channel>
   <channel site="tv.sfr.fr" site_id="2184" lang="fr" xmltv_id="DiscoveryChannel.fr@SD">Discovery Investigation</channel>
   <channel site="tv.sfr.fr" site_id="2" lang="fr" xmltv_id="13emeRue.fr@SD">13ème rue</channel>
+  <channel site="tv.sfr.fr" site_id="1746" lang="fr" xmltv_id="Nicktoons.fr@SD">NickToons</channel>
   <channel site="tv.sfr.fr" site_id="321" lang="fr" xmltv_id="Boomerang.fr@HD">Boomerang</channel>
   <channel site="tv.sfr.fr" site_id="473" lang="fr" xmltv_id="Nickelodeon.fr@SD">Nickelodeon</channel>
   <channel site="tv.sfr.fr" site_id="140" lang="fr" xmltv_id="EuronewsFrench.fr@SD">Euronews Fra</channel>
   <channel site="tv.sfr.fr" site_id="116" lang="fr" xmltv_id="BFMLyon.fr@SD">BFM Lyon</channel>
-  <channel site="tv.sfr.fr" site_id="1746" lang="fr" xmltv_id="Nicktoons.fr@SD">NickToons</channel>
 </channels>
