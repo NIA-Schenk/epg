@@ -3,7 +3,7 @@ name: Update French TV guide
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 5 * * *'
+    - cron: '0 4,6,12 * * *'
       timezone: Europe/Amsterdam
 
 permissions:
