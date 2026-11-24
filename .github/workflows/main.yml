@@ -1,0 +1,57 @@
+name: Update French TV guide
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5 * * *'
+      timezone: Europe/Amsterdam
+
+permissions:
+  contents: write
+
+concurrency:
+  group: french-epg
+  cancel-in-progress: false
+
+jobs:
+  update-guide:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          package-manager-cache: false
+
+      - name: Download EPG grabber
+        run: git clone --depth 1 --branch master https://github.com/iptv-org/epg.git epg
+
+      - name: Install dependencies
+        working-directory: epg
+        run: npm install
+
+      - name: Generate XMLTV guide
+        working-directory: epg
+        run: npm run grab --- --sites=programme-tv.net
+
+      - name: Validate XMLTV guide
+        run: python3 -c 'import sys, xml.etree.ElementTree as ET; root = ET.parse("epg/guide.xml").getroot(); sys.exit(0 if root.tag == "tv" and root.find("programme") is not None else "XMLTV guide contains no programmes")'
+
+      - name: Check out publishing repository
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          path: publish
+
+      - name: Publish guide
+        working-directory: publish
+        run: |
+          cp ../epg/guide.xml ./fr.xml
+          git add -- fr.xml
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update French TV guide"
+          git push
