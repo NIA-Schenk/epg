@@ -13,21 +13,32 @@
   <channel site="tv.sfr.fr" site_id="482" lang="fr" xmltv_id="Gulli.fr@SD">Gulli</channel>
   <channel site="tv.sfr.fr" site_id="481" lang="fr" xmltv_id="BFMTV.fr@SD">BFM TV</channel>
   <channel site="tv.sfr.fr" site_id="226" lang="fr" xmltv_id="CNews.fr@SD">CNews</channel>
+  <channel site="tv.sfr.fr" site_id="112" lang="fr" xmltv_id="LCI.fr@HD">LCI</channel>
+  <channel site="tv.sfr.fr" site_id="2111" lang="fr" xmltv_id="Franceinfo.fr@SD">franceinfo:</channel>
   <channel site="tv.sfr.fr" site_id="458" lang="fr" xmltv_id="CStar.fr@SD">CStar</channel>
   <channel site="tv.sfr.fr" site_id="4139" lang="fr" xmltv_id="T18.fr@HD">T18</channel>
   <channel site="tv.sfr.fr" site_id="4138" lang="fr" xmltv_id="NOVO19.fr@HD">NOVO19</channel>
   <channel site="tv.sfr.fr" site_id="1404" lang="fr" xmltv_id="TF1SeriesFilms.fr@SD">TF1 Séries-Films</channel>
+  <channel site="tv.sfr.fr" site_id="1401" lang="fr" xmltv_id="LEquipe.fr@SD">L'équipe</channel>
   <channel site="tv.sfr.fr" site_id="1403" lang="fr" xmltv_id="6ter.fr@SD">6ter</channel>
+  <channel site="tv.sfr.fr" site_id="145" lang="fr" xmltv_id="ParisPremiere.fr@SD">Paris Première</channel>
   <channel site="tv.sfr.fr" site_id="225" lang="fr" xmltv_id="TVBreizh.fr@SD">TV Breizh</channel>
+  <channel site="tv.sfr.fr" site_id="191" lang="fr" xmltv_id="Teva.fr@SD">Téva</channel>
   <channel site="programme-tv.net" site_id="canalplus-sport-37" lang="fr" xmltv_id="CanalPlusSport.fr@SD">Canal+ Sport</channel>
   <channel site="programme-tv.net" site_id="eurosport-1-5" lang="fr" xmltv_id="Eurosport1.fr@France">EUROSPORT 1 HD</channel>
   <channel site="programme-tv.net" site_id="eurosport-2-63" lang="fr" xmltv_id="Eurosport2.fr@France">EUROSPORT 2 HD</channel>
   <channel site="tv.sfr.fr" site_id="2752" lang="fr" xmltv_id="ComedyCentral.fr@HD">Comedy Central</channel>
+  <channel site="tv.sfr.fr" site_id="128" lang="fr" xmltv_id="MTV.fr@SD">MTV</channel>
   <channel site="tv.sfr.fr" site_id="400" lang="fr" xmltv_id="DiscoveryChannel.fr@SD">Discovery Channel</channel>
+  <channel site="tv.sfr.fr" site_id="479" lang="fr" xmltv_id="SciFi.fr@HD">SciFi</channel>
   <channel site="tv.sfr.fr" site_id="2" lang="fr" xmltv_id="13emeRue.fr@SD">13ème rue</channel>
   <channel site="tv.sfr.fr" site_id="1746" lang="fr" xmltv_id="Nicktoons.fr@SD">NickToons</channel>
   <channel site="tv.sfr.fr" site_id="321" lang="fr" xmltv_id="Boomerang.fr@HD">Boomerang</channel>
   <channel site="tv.sfr.fr" site_id="473" lang="fr" xmltv_id="Nickelodeon.fr@SD">Nickelodeon</channel>
+  <channel site="tv.sfr.fr" site_id="888" lang="fr" xmltv_id="NickelodeonJunior.fr@SD">Nickelodeon Junior</channel>
+  <channel site="tv.sfr.fr" site_id="88" lang="fr" xmltv_id="HistoireTV.fr@SD">Histoire TV</channel>
+  <channel site="tv.sfr.fr" site_id="6" lang="fr" xmltv_id="Mangas.fr@SD">Mangas</channel>
   <channel site="tv.sfr.fr" site_id="140" lang="fr" xmltv_id="EuronewsFrench.fr@SD">Euronews Fra</channel>
+  <channel site="tv.sfr.fr" site_id="2184" lang="fr" xmltv_id="InvestigationDiscovery.fr@SD">Discovery Investigation</channel>
   <channel site="tv.sfr.fr" site_id="116" lang="fr" xmltv_id="BFMLyon.fr@SD">BFM Lyon</channel>
 </channels>
