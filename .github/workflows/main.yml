@@ -3,8 +3,7 @@ name: Update French TV guide
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 4,6,13 * * *'
-      timezone: Europe/Amsterdam
+    - cron: '17 3,6,12 * * *'
 
 permissions:
   contents: write
@@ -19,6 +18,10 @@ jobs:
     timeout-minutes: 60
 
     steps:
+      - name: Show trigger
+        run: |
+          echo "Event: ${{ github.event_name }}, schedule: ${{ github.event.schedule }}"
+    
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
